@@ -12,8 +12,8 @@ import (
 )
 
 var (
-	Duration90d  = time.Hour * 24 * 90
-	Duration365d = time.Hour * 24 * 365
+	Duration90d  = time.Hour * 24 * 365
+	Duration365d = time.Hour * 24 * 1000
 )
 
 type CACertConfig struct {
